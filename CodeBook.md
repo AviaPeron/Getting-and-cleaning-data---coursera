@@ -18,7 +18,9 @@ We focus on this two variables in the original data sets:
 `Xtest/train`, `Ytest/train`, `SubjectTest/Train` - Contains the data from the origunal files.
 `features` contains the correct names  which are applied to the column names with `colunam` vector.
 `TestDat` and `TrainDat`  merge the trains/tests datasets, and `AllDat` merge them all.
-`MeaSdDat`take only the measurements on the mean and standard deviation from `AllDat`
+
+`MeaSdDat`take only the measurements on the mean and standard deviation from `AllDat`.
+
 `AllDatNam` is the tidy data that contains the averages of each variable for each activity and each subject.
 
 
